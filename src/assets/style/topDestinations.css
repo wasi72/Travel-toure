@@ -1,0 +1,46 @@
+.destinations-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.destination-card {
+  width: 22%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.destination-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.destination-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.destination-rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 1.2em;
+  color: #ffcc00;
+}
+
+.empty-stars .star {
+  color: #ccc;
+}
+
+.destination-reviews {
+  font-size: 0.9em;
+  color: #777;
+}
