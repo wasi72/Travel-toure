@@ -1,17 +1,24 @@
 .destinations-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; 
   flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
 
 .destination-card {
-  width: 22%;
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.3s ease;
+  width: 22%; 
   margin-bottom: 30px;
+}
+
+.destination-card:hover {
+  transform: scale(1.05);
 }
 
 .destination-image {
@@ -25,6 +32,7 @@
   margin-bottom: 10px;
   font-weight: bold;
 }
+
 .destination-rating {
   display: flex;
   justify-content: center;
@@ -43,4 +51,23 @@
 .destination-reviews {
   font-size: 0.9em;
   color: #777;
+}
+
+
+@media (max-width: 1200px) {
+  .destination-card {
+    width: 30%; 
+  }
+}
+
+@media (max-width: 992px) {
+  .destination-card {
+    width: 45%; 
+  }
+}
+
+@media (max-width: 768px) {
+  .destination-card {
+    width: 70%; 
+  }
 }

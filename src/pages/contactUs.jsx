@@ -9,7 +9,7 @@ const about =()=>{
         <Navbar/>
         <div className="container">
         <h1>CONTACT </h1>
-        <p>A free template by Colorlib. Download and share!</p>
+        <p>A Free website by mern stack.!</p>
         <input type="submit" value="VISIT COLORLIB" />
         </div>
         </div>
