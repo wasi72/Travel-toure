@@ -7,7 +7,7 @@ import Hotels from './pages/hotels';
 function App() {
   return (
     <>
-      <BrowserRouter basename="/Travel-Tours">
+      <BrowserRouter basename="/Travel">
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="home" element={<LandingPage />} />
